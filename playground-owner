@@ -1,0 +1,6 @@
+#DataSourceSettings#
+#LocalDataSource: playground-owner
+#BEGIN#
+<data-source source="LOCAL" name="playground-owner" uuid="156295bd-f29b-47e1-bc16-d5087e39597f"><database-info product="PostgreSQL" version="9.6.24" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="9.6.24" exact-driver-version="42.5"><identifier-quote-string>&quot;</identifier-quote-string></database-info><case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/><driver-ref>postgresql</driver-ref><synchronize>true</synchronize><jdbc-driver>org.postgresql.Driver</jdbc-driver><jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url><secret-storage>master_key</secret-storage><user-name>owner</user-name><schema-mapping><introspection-scope><node negative="1"><node kind="database" qname="@"><node kind="schema" qname="@"/></node><node kind="database"><name qname="item"/><name qname="shopping_cart"/><name qname="store_1"/><name qname="store_2"/><node kind="schema" qname="public"/></node></node></introspection-scope></schema-mapping><working-dir>$ProjectFileDir$</working-dir></data-source>
+#END#
+

@@ -1,0 +1,5 @@
+#DataSourceSettings#
+#LocalDataSource: playground-postgres-template1
+#BEGIN#
+<data-source source="LOCAL" name="playground-postgres-template1" uuid="b4b08327-6752-414e-8902-e91378876790"><database-info product="PostgreSQL" version="9.6.24" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="9.6.24" exact-driver-version="42.5"><identifier-quote-string>&quot;</identifier-quote-string></database-info><case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/><driver-ref>postgresql</driver-ref><synchronize>true</synchronize><jdbc-driver>org.postgresql.Driver</jdbc-driver><jdbc-url>jdbc:postgresql://localhost:5432/template1</jdbc-url><jdbc-additional-properties><property name="SHOW_TEMPLATE_DATABASES" value="true"/></jdbc-additional-properties><secret-storage>master_key</secret-storage><user-name>postgres</user-name><schema-mapping><introspection-scope><node kind="database" qname="template1"/></introspection-scope></schema-mapping><working-dir>$ProjectFileDir$</working-dir></data-source>
+#END#
