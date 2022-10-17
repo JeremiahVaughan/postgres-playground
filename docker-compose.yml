@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:14
+#    image: postgres:9.6
+    env_file:
+      - ./.env
+    network_mode: host
+    volumes:
+      - "./db_init:/docker-entrypoint-initdb.d/:ro"

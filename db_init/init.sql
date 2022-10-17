@@ -1,0 +1,5 @@
+CREATE DATABASE store_1;
+CREATE DATABASE store_2;
+
+CREATE USER bagger WITH PASSWORD 'postgres';
+CREATE USER owner WITH PASSWORD 'postgres';
